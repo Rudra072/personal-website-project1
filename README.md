@@ -26,3 +26,9 @@ You can view detailed user stories here:
 2. Open the project in Visual Studio Code.
 
 3. Start a live server to preview the website.
+
+## Things to Include
+- Add demo video
+- Add link to google slides
+- Link to the class: https://johnguerra.co/classes/webDevelopment_fall_2025/
+- Disclosure of AI usage
