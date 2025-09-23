@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rudra Vaghani" />
+    <meta
+      name="description"
+      content="Personal homepage of Your Name. Showcasing projects, experience, and skills."
+    />
+    <link rel="icon" href="/images/profile.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/work.css" />
+    <title>Rudra Vaghani</title>
+  </head>
+  <body>
+    <section class="main">
+      <div class="nav"></div>
+      <div class="projects-section">
+        <div class="my-list">
+          <h1>My lists</h1>
+          <img
+            src="../images/Screenshot 2025-09-23 at 1.33.58 AM.png"
+            alt="board image"
+            class="light"
+          />
+          <h2>Project scope</h2>
+          <div class="desc">
+            <p>
+              - Development of a full-stack web application using React and
+              MongoDB to enhance user productivity through a kanban-style task
+              management system.
+            </p>
+            <p>
+              - Implementation of customizable themes and priority-based task
+              sorting to improve personalization and workflow efficiency.
+            </p>
+            <p>
+              - Support for multiple task views (board and list) to provide
+              flexibility and improve user experience.
+            </p>
+            <p>
+              - Ongoing enhancements focused on usability, accessibility, and
+              feature expansion.
+            </p>
+          </div>
+        </div>
+        <div class="euro-school">
+          <h1>Euro School</h1>
+          <img
+            src="../images/Screenshot 2025-09-23 at 1.44.14 AM.png"
+            alt="board image"
+            class="light"
+          />
+          <h2>Project scope</h2>
+          <div class="desc">
+            <p>
+              - Conducted UX audit to identify key user needs and pain points.
+            </p>
+            <p>
+              - Designed responsive, minimal, and functional user interface with
+              HTML, CSS, and JavaScript.
+            </p>
+            <p>
+              - Developed concept design tailored for Euro School's main
+              features and workflows. to provide flexibility and improve user
+              experience.
+            </p>
+            <p>
+              - Focused on clarity, usability, and scalability across devices.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script>
+    fetch("../components/nav.html")
+      .then((res) => res.text())
+      .then((data) => {
+        document.querySelector(".nav").innerHTML = data;
+      });
+  </script>
+  <script type="module" src="/darkmode.js"></script>
+</html>

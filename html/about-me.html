@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rudra Vaghani" />
+    <meta
+      name="description"
+      content="Personal homepage of Your Name. Showcasing projects, experience, and skills."
+    />
+    <link rel="icon" href="/images/profile.png" type="image/png" />
+    <title>Rudra Vaghani</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/about-me.css" />
+  </head>
+  <body>
+    <section class="main">
+      <div class="nav"></div>
+      <div class="about-me">
+        <div class="profession">
+          <h2>Myself <span>Rudra Vaghani</span> based in Boston</h2>
+          <p>
+            I'm a self-driven software engineer with 6 months of professional
+            React experience and a passion for creating intuitive user
+            experiences. Currently pursuing my Master's in Computer Science
+            while building full-stack applications that solve real problems. I
+            specialize in JavaScript, React, and Node.js, with growing expertise
+            in Next.js and TypeScript. My unique combination of technical skills
+            and design sensibility—demonstrated through 5,344+ points on CSS
+            Battles—allows me to bridge the gap between functionality and
+            beautiful user interfaces.
+          </p>
+        </div>
+        <img class="profile" src="../images/profile.png" alt="profile image" />
+        <img class="nature" src="../images/IMG_9006.png" alt="city image" />
+        <div class="others">
+          <h2>Things I love to do</h2>
+          <p>
+            When I'm not coding, you'll find me hiking trails and capturing
+            landscapes and city skylines through photography - both activities
+            that strengthen my eye for composition and attention to detail that
+            I bring to UI design.
+            <br />
+            I love to watch anime and making edits on them secretly I am video
+            editor and color grader >//<
+          </p>
+          <h2>My sweet lil Toolkit</h2>
+          <div class="toolkit">
+            <div>
+              <h4>/ DEVELOPMENT</h4>
+              <span>Next.js / React</span>
+              <span>HTML5 / SCSS</span>
+              <span>Tailwind</span>
+              <span>PHP</span>
+              <span>JavaScript</span>
+              <span>GSAP</span>
+            </div>
+            <div>
+              <h4>/ DESIGN</h4>
+              <span>Figma</span>
+              <span>Adobe XD</span>
+              <span>Webflow</span>
+              <span>After Effects</span>
+            </div>
+            <div>
+              <h4>/ ADMIN</h4>
+              <span>Github</span>
+              <span>CSS Battle</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      fetch("../components/nav.html")
+        .then((res) => res.text())
+        .then((data) => {
+          document.querySelector(".nav").innerHTML = data;
+        });
+    </script>
+    <script type="module" src="/darkmode.js"></script>
+  </body>
+</html>

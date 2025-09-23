@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Rudra Vaghani" />
+    <meta
+      name="description"
+      content="Personal homepage of Your Name. Showcasing projects, experience, and skills."
+    />
+    <link rel="icon" href="/images/profile.png" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rudra Vaghani</title>
+  </head>
+  <body>
+    <section class="main">
+      <div class="nav"></div>
+      <div class="hero">
+        <div class="upper-left">
+          <h1>Rudra</h1>
+          <div class="job-role">
+            <div class="circle"></div>
+            <p>Software Developer</p>
+          </div>
+        </div>
+        <div class="upper-right">
+          <h1>Vaghani</h1>
+          <div class="current-date">
+            <p>12.06.2025</p>
+          </div>
+        </div>
+        <div class="lower-left">
+          <p class="section-title">NO.01</p>
+        </div>
+        <div class="lower-right">
+          <div class="about-me-summary observe" data-number="01">
+            <p>
+              I'm Rudra Vaghani, an experienced frontend developer passionate
+              about learning and building open-source software that is
+              beneficial to developers and the world at large.
+            </p>
+            <div class="social-links">
+              <a
+                class="instagram"
+                href="https://www.instagram.com/_rudra72?igsh=MXJtbnN3d2R6eHpweA%3D%3D&utm_source=qr"
+                ><p>Instagram</p></a
+              >
+              <a
+                class="linkedin"
+                href="https://www.linkedin.com/in/rudravaghani72/"
+                ><p>Linkedin</p></a
+              >
+              <a class="github" href="https://github.com/Rudra072"
+                ><p>Github</p></a
+              >
+              <a class="code-pen" href="https://codepen.io/Rudra72"
+                ><p>Codepen</p></a
+              >
+            </div>
+          </div>
+          <div class="work-exp observe" data-number="02">
+            <div id="work-exp">
+              <h2>Experience</h2>
+              <h3>Vishvambhari Infotech</h3>
+              <p>
+                Worked at making UI more defined by gathering user requirements
+                and understanding main functionalities. Created visual identity
+                by animations using tailwind, GSAP and framer. Developed RESTful
+                APIs to handle data creation, retrieval, updates and deletion
+                using NodeJS.
+              </p>
+            </div>
+            <h2>Projects</h2>
+            <div class="projects">
+              <div>
+                <div class="project-title">
+                  <h3>Mylists</h3>
+                  <a href="https://myylists.netlify.app/" class="project-link"
+                    >myylists.netlify.app</a
+                  >
+                </div>
+                <p>
+                  Worked at making UI more defined by gathering user
+                  requirements and understanding main functionalities. Created
+                  visual identity by animations using tailwind, GSAP and framer.
+                  Developed RESTful APIs to handle data creation, retrieval,
+                  updates and deletion using NodeJS.
+                </p>
+              </div>
+              <div>
+                <div class="project-title">
+                  <h3>Euro School</h3>
+                  <a
+                    href="https://euroschools.netlify.app/"
+                    class="project-link"
+                    >euroschools.netlify.app</a
+                  >
+                </div>
+                <p>
+                  Drove the concept design for Euro school by conducting UX
+                  audit and understanding main functionalities with responsive &
+                  minimal look.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      fetch("../components/nav.html")
+        .then((res) => res.text())
+        .then((data) => {
+          document.querySelector(".nav").innerHTML = data;
+        });
+    </script>
+    <script type="module" src="/main.js"></script>
+    <script type="module" src="/darkmode.js"></script>
+  </body>
+</html>
