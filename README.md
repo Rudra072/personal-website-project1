@@ -15,8 +15,14 @@ A personal portfolio website built to highlight my passions, skills, experience,
 - Demonstrate technical proficiency
 - Reflect my personal brand and growth
 
+## 📖 User Stories
+You can view detailed user stories here:  
+[User Stories Document](https://docs.google.com/document/d/1OSa9D1KsgKOgl6zBZJTU4INtxq9zTxp0/edit?usp=sharing)
+
 ## ⚡ Getting Started
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/personal-website-project1.git
-then open live server from Visual Studio Code
+2. Open the project in Visual Studio Code.
+
+3. Start a live server to preview the website.
