@@ -312,24 +312,24 @@ body.darkmode {
     font-weight: 200;
   }
 
-  #work-exp{
+  #work-exp {
     padding-bottom: 1.2rem;
     margin-bottom: 4rem;
     border-bottom: 0.5px solid var(--border);
   }
 
-  .projects{
+  .projects {
     display: flex;
     flex-direction: column;
     gap: 2rem;
   }
 
-  .project-title{
+  .project-title {
     display: flex;
     justify-content: space-between;
   }
 
-  .project-link{
+  .project-link {
     all: unset;
     cursor: pointer;
   }
