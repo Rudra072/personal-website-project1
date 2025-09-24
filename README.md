@@ -24,13 +24,13 @@ The goal of this project is to design and implement a personal homepage that hig
 ---
 
 ## 📸 Screenshots  
-**Homepage**  
+## Homepage 
 ![Homepage Screenshot](https://i.imgur.com/lgygbFe.png)
 
-**Work**  
+## Work
 ![Homepage Screenshot](https://i.imgur.com/Lwoj56W.png)
 
-**About Me**  
+## About Me
 ![Homepage Screenshot](https://i.imgur.com/UThkc7d.png)
 
 ---
